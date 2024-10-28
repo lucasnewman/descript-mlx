@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "descript-mlx"
-version = "0.0.1"
+version = "0.0.2"
 authors = [{name = "Lucas Newman", email = "lucasnewman@me.com"}]
 license = {text = "MIT"}
 description = "Descript Audio Codec - MLX"
@@ -40,5 +40,4 @@ dependencies = [
 Homepage = "https://github.com/lucasnewman/descript-mlx"
 
 [tool.setuptools]
-packages = ["descript_mlx"]
-
+packages = ["descript_mlx", "descript_mlx.model", "descript_mlx.nn"]
