@@ -1,0 +1,6 @@
+einops
+huggingface_hub
+mlx>=0.18.1
+numpy
+setuptools
+soundfile
